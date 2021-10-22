@@ -5,7 +5,7 @@
 ## Install
 
 ```composer
-composer install semiorbit/guid
+composer require semiorbit/guid
 ```
 
 ## Documentation
@@ -17,7 +17,7 @@ Generates a GUID that is compatible with  Microsoft .NET Framework GUID.
 ```php
 Guid::NewGuid(string $separator = '-', bool $enclose = true) : string
 ```
-####Params
+#### Params
 * string **$separator** dash by default
 * bool **$enclose** enclose a GUID in curly braces.
 * returns string
