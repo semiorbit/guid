@@ -23,7 +23,7 @@ Guid::NewGuid(string $separator = '-', bool $enclose = true) : string
 * returns string
   
 ```php
-use Semiorbit\Guid\Guid;
+use SemiorbitGuid\Guid;
 
 echo Guid::NewGuid();
 
@@ -42,7 +42,7 @@ Guid::Create(): string
 * returns string
 
 ```php
-use Semiorbit\Guid\Guid;
+use SemiorbitGuid\Guid;
 
 echo Guid::Create();
 
@@ -66,7 +66,7 @@ Guid::Format(string $guid, bool $enclose = true, string $separator = '-'): strin
 * returns string **{xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxxxxx}**
   
 ```php
-use Semiorbit\Guid\Guid;
+use SemiorbitGuid\Guid;
 
 $guid = '4F93820EFEF290A26489E0AE803A37C0';
 
