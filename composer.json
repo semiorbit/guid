@@ -1,0 +1,32 @@
+{
+  "name": "semiorbit/guid",
+  "description": "Generate a GUID in PHP that is compatible with  Microsoft .NET Framework (C#) GUID.",
+  "type": "library",
+  "keywords": [
+    "guid",
+    "DCE UUID",
+    "Microsoft .NET GUID",
+    "GUID PHP"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ibrahim Khalil Khalbous",
+      "email": "ibrahim@semiorbit.com"
+    },
+    {
+      "name": "Semiorbit Solution Co. LLC",
+      "email": "framework@semiorbit.com",
+      "homepage": "https://semiorbit.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SemiorbitGuid\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
